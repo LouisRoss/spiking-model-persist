@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Optional analysis software in python, must have pandas.
+apt update
+#apt install -y python3-pandas
+
+#pip install cherrypy
