@@ -3,9 +3,9 @@ echo $(pwd)
 docker container run \
 -it \
 --rm \
--p 0.0.0.0:8080:8080 \
+-p 0.0.0.0:3000:3000 \
 --name=spiking-model-visualizer \
--v "$(pwd)":/home/spiking-model-visualizer \
+-v "$(pwd)":/app \
 louisross/spiking-model-visualizer:1.0 \
 bash
 
