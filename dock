@@ -1,0 +1,7 @@
+docker run \
+-it \
+--rm \
+--name bmtk \
+--mount type=bind,source="$(pwd)"/h5,target=/data \
+alleninstitute/bmtk:latest
+bash
